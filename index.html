@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Студия - Дизайн студия «Нёрдс»</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="main-header">
+  <nav class="main-navigation container">
+    <a class="main-header-logo" href="index.html">
+      <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн студии «Нёрдс»">
+    </a>
+    <ul class="site-navigation">
+      <li><a href="index.html">Студия</a></li>
+      <li><a href="#">Клиенты</a></li>
+      <li><a href="catalog.html">Магазин</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+    <ul class="user-navigation">
+      <li><a class="login-link" href="#">Корзина</a></li>
+    </ul>
+  </nav>
+
+  <!--<figure class="features container">
+    <h2 class="visually-hidden">Преимущества</h2>
+    <section class="slide slide1 ">
+      <p class="title-features">Долго, дорого,<br>скрупулезно.</p>
+      <p class="text-features">Математически выверенный дизайн <br>для вашего сайта или мобильного приложения.</p>
+      <a class="button button-features" href="#">Узнать больше</a>
+    </section>
+    <section class="slide slide2 visually-hidden">
+      <p class="title-features">Любим математику<br>как никто другой</p>
+      <p class="text-features">Никакого креатива, только математические формулы <br>для расчета идеальных пропорций.</p>
+      <a class="button button-features" href="#">Узнать больше</a>
+    </section>
+    <section class="slide slide3 visually-hidden">
+      <p class="title-features">Только ночь,<br>только хардкор</p>
+      <p class="text-features">Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.
+      </p>
+      <a class="button button-features" href="#">Узнать больше</a>
+    </section>
+  </figure>-->
+
+  <section class="slider">
+    <div class="container">
+      <h2 class="visually-hidden">Преимущества</h2>
+      <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+      <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+      <input class="visually-hidden" type="radio" id="product-3" name="toggle">
+      <div class="slider-controls">
+        <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
+        <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+        <label class="slider-controls-item slider-controls-item--3" for="product-3">Третий</label>
+        <!--<i class="active"></i>
+        <i></i>
+        <i></i>-->
+      </div>
+      <ul class="slider-list">
+        <li class="slider-item">
+          <p class="title-features">Долго, дорого,<br>скрупулезно.</p>
+          <p class="text-features">Математически выверенный дизайн <br>для вашего сайта или мобильного приложения.</p>
+          <a class="slider-item-button button" href="#">Узнать больше</a>
+        </li>
+        <li class="slider-item">
+          <p class="title-features">Любим математику как никто другой</p>
+          <p class="text-features">Никакого креатива, только математические формулы <br>для расчета идеальных пропорций.
+          </p>
+          <a class="slider-item-button button" href="#">Узнать больше</a>
+        </li>
+        <li class="slider-item">
+          <p class="title-features">Только ночь,<br>только хардкор</p>
+          <p class="text-features">Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только
+            начинается.
+          </p>
+          <a class="slider-item-button button" href="#">Узнать больше</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</header>
+
+
+<main class="container">
+  <h1 class="visually-hidden">Дизайн студия «Нёрдс»</h1>
+  <section class="advantages">
+    <h2 class="visually-hidden">Преимущества</h2>
+    <ul class="advantages-list">
+      <li class="advantages-item">
+        <article>
+          <img src="img/illustration-11.svg" height="146" width="300" alt="Изображение 'Сайты'">
+          <h3>Веб-сайты</h3>
+          <p>Мир никогда не будет прежним <br>
+            после того как увидит ваш сайт!</p>
+          <a class="button" href="#">Заказать</a>
+        </article>
+      </li>
+      <li class="advantages-item">
+        <article>
+          <img src="img/illustration-21.svg" height="146" width="300" alt="Изображение 'Приложения'">
+          <h3>Приложения</h3>
+          <p>Покорите топ-10 приложений в <br>
+            AppStore и Google Play</p>
+          <a class="button button-application" href="#">Заказать</a>
+        </article>
+      </li>
+      <li class="advantages-item">
+        <article>
+          <img src="img/illustration-31.svg" height="146" width="300" alt="Изображение 'Презентации'">
+          <h3>Презентации</h3>
+          <p>Вы даже не подозреваете,<br>
+            насколько вы изумительны!</p>
+          <a class="button button-presentation" href="#">Заказать</a>
+        </article>
+      </li>
+    </ul>
+  </section>
+
+  <div class="studio">
+
+    <section class="about-us">
+      <div>
+        <h2 class="visually-hidden">О нашей студии</h2>
+        <p class="title-about-us">Мы — маленькая, но гордая<br>
+          дизайн-студия из Краснодара.</p>
+        <p class="text-about-us">Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>
+          превыше креатива. Работаем не покладая рук, как роботы.</p>
+        <p class="title-making">Выполняем заказы на разработку:</p>
+        <ul class="out-offers">
+          <li>Веб-сайтов любой сложности</li>
+          <li>Мобильных приложений для iOS и Android</li>
+          <li>Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
+      </div>
+
+      <div class="statistic-block">
+        <img src="img/nerds-illustration1.png" width="360" height="208" alt="Логотип дизайн студии «Нёрдс»">
+        <p class="title-statistic">с 2004 года Любим точность во всем:</p>
+        <ul class="statistic">
+          <li>146<sup>%</sup>
+            <p>Уровень <br>самоотдачи</p></li>
+          <li>100<sup>%</sup>
+            <p>Соблюдение <br>сроков</p></li>
+          <li>50<sup>%</sup>
+            <p>Минимальная <br>предоплата</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="partners container">
+      <h2 class="visually-hidden">Наши партнёры</h2>
+      <ul class="partners-list">
+        <li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/home/Group5.png" width="199" height="68"
+                                                                    alt="Логотип партнёра «Html Academy»"></a></li>
+        <li><a href="#"><img src="img/home/logo-21.png" width="209" height="90"
+                             alt="Логотип партнёра Барбершоп «Бородинский»"></a></li>
+        <li><a href="#"><img src="img/home/logo-31.png" width="185" height="52" alt="Логотип партнёра «Pink»"></a></li>
+        <li><a href="#"><img src="img/home/logo-41.png" width="173" height="84" alt="Логотип партнёра «Mishka»"></a>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+
+</main>
+
+
+<footer>
+  <section class="contacts container">
+    <h2 class="visually-hidden">Контакты</h2>
+    <article>
+      <h3>NЁRDS DESIGN STUDIO</h3>
+      <address>
+        <p>191186, Санкт-Петербург, <br>
+          ул. Б. Конюшенная, д. 19/8</p>
+        <p><a class="tel" href="tel:+78122757575">тел. +7 (812) 275-75-75</a></p>
+      </address>
+      <button class="button contacts-button" type="button">Напишите нам</button>
+    </article>
+
+    <iframe src="https://yandex.ru/map-widget/v1/-/CCQt7Tds8B" width="100%" height="100%" allowfullscreen></iframe>
+
+    <img src="img/home/map%201.png" width="1440" height="416"
+         alt="Карта с адресом: г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+    <img class="point-map" src="img/home/map-marker%201.png" width="231" height="190"
+         alt="Метка на карте с адресом: г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+  </section>
+
+  <section class="social container">
+    <h2 class="visually-hidden">Наши социальные сети</h2>
+    <ul class="social-item">
+      <li><a class="social-vk" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
+      <li><a class="social-fb" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+      <li><a class="social-insta" href="#"><span class="visually-hidden">Инстаграмм</span></a></li>
+    </ul>
+    <p><span class="title-social-promo">Давайте дружить, это выгодно!</span><br>
+      Скидка 10% для друзей из социальных сетей.</p>
+
+  </section>
+</footer>
+<section class="feedback">
+  <h2>Напишите нам</h2>
+  <form class="feedback-form">
+    <p class="feedback-item">
+      <label>Ваше имя:
+        <input type="text" name="name" placeholder="Имя Фамилия">
+      </label>
+    </p>
+    <p class="feedback-item">
+      <label>Ваш e-mail:
+        <input type="email" name="email" placeholder="email@example.com">
+      </label>
+    </p>
+    <p class="feedback-item feedback-letter">
+      <label class="">Текст письма:
+        <input type="text" name="appeal" placeholder="В свободной форме">
+      </label>
+    </p>
+    <button class="button feedback-button" type="submit">Отправить</button>
+  </form>
+  <button class="modal-close" type="button">Закрыть</button>
+</section>
+<script src="js/popup.js"></script>
+</body>
+</html>
